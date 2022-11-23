@@ -1,74 +1,131 @@
-body {
-background: #cccccc;
-
-}
-
-
-#banner {
+header {
+    background: #00421c;
     width: 100%;
-    border-radius: 10px 20px;
-}
-
-.principal {
-    background: #cccccc;
-    padding: 30px;
-    border-radius: 10px 20px;
+    padding: 10px 0;
 
 }
 
-.titulo-principal {
-    font-family: font-mono;
-    font-size: 3em;
-    font-weight: 400;
-    letter-spacing: 0.3em;
-    text-transform: uppercase;
-    color: #F7F3E3;
-
-
+.caixa {
+    position: relative;
+    width: 940px;
 }
 
-.titulo-centralizado{
-    text-align:center
-}
-p {
-    text-align: center;
-}
-
-#missao {
-    font-size: 20px
-}
-
-em strong {
-    color: rgb(164, 100, 224);
-}
-
-.itens {
-    font-style: italic;
-}
-
-.beneficios {
-    background: #f6f6f8;
-    padding: 20px;
-    border-radius: 10px 20px;
+#logo2 {
+    width: 25rem;
+    position: relative;
+    top: 3px;
+    left: 150px;
     
 }
 
-h2 {
-    text-align: center;
+nav {
+    position: absolute;
+    top: 110px;
+    right: 80px;
 }
 
-ul {
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #1b1b1b;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color:  #D2AC7F;
+    text-decoration: underline;
+}
+nav p:hover {
+    color:  #D2AC7F;
+    text-decoration:underline;
+}
+
+#log {
+    text-transform: uppercase;
+    color: #1b1b1b;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+#login {
+    position: absolute;
+    width: 20px;
+    top: 50px;
+    right: 40px;
+    
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+
+}
+
+.produtos li {
     display: inline-block;
+    margin: 0 1.5%;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 3px solid #00421c;
+    border-radius: 15px;
+
 }
 
-.imagembeneficios {
-    width: 50%;
-    border-radius: 10px 20px;
-    opacity : 2;
+.produtos li:hover {
+    border-color: #D2AC7F;
+    }
+
+.produtos li :active {
+    border-color: #D2AC7F;
 }
 
+.produtos li:hover h2 {
+    font-size: 34px;
+}
 
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.produto-preco {
+    font-size: 27px;
+    font-weight: bold;
+    margin: 10px 0 0;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: #FFEFDD;
+    padding: 40px;
+}
+
+.copyright{
+    color: #1b1b1b;
+    font-size: small;
+    margin: 20px 0 0;
+}
+
+#logo3 {
+    width: 25rem;
+    position: relative;
+    top: 3px;
+}
 
