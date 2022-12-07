@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.cdnfonts.com/css/pieces-of-eight');
+
+main {
+    background: #cccccc;
+    
+    } 
+    .principal {
+        background: #cccccc;
+        padding: 30px;
+        border-radius: 10px 20px;
+        position: static;
+    }
+    .titulo-centralizado, p, .itens, .imagembeneficios {
+            -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+                    animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+        }
+        @-webkit-keyframes text-focus-in {
+            0% {
+        -webkit-filter: blur(12px);
+            filter: blur(12px);
+            opacity: 0;
+            }
+            100% {
+            -webkit-filter: blur(0px);
+            filter: blur(0px);
+            opacity: 1;
+            }
+        }
+        @keyframes text-focus-in {
+            0% {
+            -webkit-filter: blur(12px);
+            filter: blur(12px);
+            opacity: 0;
+            }
+            100% {
+            -webkit-filter: blur(0px);
+            filter: blur(0px);
+            opacity: 1;
+            }
+        }
+        
+    .titulo-centralizado{
+        text-align:center;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 22px;
+        text-decoration: none;
+        color: #2f4b52;
+        font-family: 'Roboto', sans-serif;
+    }
+    p {
+        text-align:justify;
+        font-weight:lighter;
+        font-size: 19px;
+        font-family: 'Roboto', sans-serif;
+    }
+    #missao {
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    em strong {
+        color: #2f4b52;
+        font-weight: bold;
+    }
+    .beneficios {
+        display: flex;
+        width: 940px;
+        margin: 0;
+    }  
+
+    .sectionbeneficios{
+        padding: 3em 0;
+        background: #f6f6f8;
+
+    }
+    h2, h3 {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    ul .itens {
+        
+        vertical-align:top;
+        width: 40%;
+        margin-top: 2rem;
+        margin-left: 15rem;
+        font-size: 35px;
+        color: #2f4b52;
+        font-family: 'Pieces of Eight', sans-serif;
+    
+    }
+
+    .imagembeneficios{
+        margin-left: 30%;
+        width: 40%;
+        padding: 20px;
+        border-radius: 15px 20px;
+        
+    
+    }
+
+    .copyright{
+        color: #1b1b1b;
+        font-size: small;
+        margin: 20px 0 0;
+    }

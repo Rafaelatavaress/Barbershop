@@ -1,18 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.cdnfonts.com/css/pieces-of-eight');
+
 header {
-    background: #00421c;
+    background: #2f4b52;
     width: 100%;
     padding: 10px 0;
 
 }
+.flex-container {
+    display: flex;
+    background-color: transparent;
+}
+
+.flex-container > div {
+    background-color: transparent;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
 
 .caixa {
-    position: relative;
+    display: flex;
     width: 940px;
 }
 
 #logo2 {
     width: 25rem;
-    position: relative;
+    position:static;
     top: 3px;
     left: 150px;
     
@@ -31,35 +45,21 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: #1b1b1b;
-    font-weight: bold;
-    font-size: 22px;
+    color: #D2AC7F;
+    font-size: 30px;
     text-decoration: none;
+    font-family: 'Pieces of Eight', sans-serif;
 }
 
 nav a:hover {
-    color:  #D2AC7F;
+    color:  #FFEFDD;
     text-decoration: underline;
 }
+
+
 nav p:hover {
-    color:  #D2AC7F;
+    color:  #FFEFDD;
     text-decoration:underline;
-}
-
-#log {
-    text-transform: uppercase;
-    color: #1b1b1b;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
-}
-
-#login {
-    position: absolute;
-    width: 20px;
-    top: 50px;
-    right: 40px;
-    
 }
 
 .produtos {
@@ -77,8 +77,9 @@ nav p:hover {
     vertical-align: top;
     padding: 30px 20px;
     box-sizing: border-box;
-    border: 3px solid #00421c;
+    border: 3px solid #2f4b52;
     border-radius: 15px;
+    
 
 }
 
@@ -100,8 +101,9 @@ nav p:hover {
 }
 
 .produto-descricao {
-    font-size: 20px;
+    font-size: 28px;
     font-weight: lighter;
+    font-family: 'Pieces of Eight', sans-serif
 }
 
 .produto-preco {
@@ -109,6 +111,7 @@ nav p:hover {
     font-weight: bold;
     margin: 10px 0 0;
     margin-top: 10px;
+    font-family: 'Pieces of Eight', sans-serif
 }
 
 footer {
@@ -128,4 +131,18 @@ footer {
     position: relative;
     top: 3px;
 }
-
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0;
+}
+form label{
+    display: block;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+form input{
+    display: block;
+}
