@@ -149,7 +149,41 @@ form label, form legend{
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
+    cursor: pointer;
 }
 .checkbox {
     margin: 20px 0;
+    cursor: pointer;
+}
+.enviar{
+    width: 35%;
+    padding: 15px 0;
+    background: #2f4b52;
+    color: #D2AC7F;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 6px;
+    transition: 2s all;
+    cursor: pointer;
+}
+.enviar:hover{
+    background:#182427;
+    transform: scale(1.1);
+}
+table{
+    margin: 20px 0 4px;
+    
+}
+thead{
+    background: #D2AC7F;
+    color: #182427;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+td, th{
+    border: 1px solid #2f4b52;
+    font-family: 'Roboto', sans-serif;
+    padding: 8px 15px;
 }
