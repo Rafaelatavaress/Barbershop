@@ -3,6 +3,7 @@
 
 body {
     background: #cccccc;
+    letter-spacing: 1px;
     
     } 
     .principal {
@@ -18,11 +19,11 @@ body {
         font-weight: bold;
         font-size: 22px;
         text-decoration: none;
+        margin-bottom: 15px;
         color: #2f4b52;
         font-family: 'Roboto', sans-serif;
     }
     p {
-        text-align:justify;
         font-weight:lighter;
         font-size: 19px;
         font-family: 'Roboto', sans-serif;
