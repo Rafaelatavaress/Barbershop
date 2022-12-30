@@ -3,8 +3,68 @@
 
 body {
     background: #cccccc;
+    }
     
-    } 
+    header {
+        background: #2f4b52;
+        width: 100%;
+        padding: 10px 0;
+    
+    }
+    .flex-container {
+        display: flex;
+        background-color: transparent;
+    }
+    
+    .flex-container > div {
+        background-color: transparent;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+    }
+    
+    .caixa {
+        display: flex;
+        width: 940px;
+    }
+    
+    #logo2 {
+        width: 25rem;
+        position:static;
+        top: 3px;
+        left: 150px;
+        
+    }
+    
+    nav {
+        position: absolute;
+        top: 110px;
+        right: 80px;
+    }
+    
+    nav li {
+        display: inline;
+        margin: 0 0 0 15px;
+    }
+    
+    nav a {
+        text-transform: uppercase;
+        color: #D2AC7F;
+        font-size: 30px;
+        text-decoration: none;
+        font-family: 'Pieces of Eight', sans-serif;
+    }
+    
+    nav a:hover {
+        color:  #FFEFDD;
+        text-decoration: underline;
+    }
+    
+    
+    nav p:hover {
+        color:  #FFEFDD;
+        text-decoration:underline;
+    }
     .principal {
         background: #cccccc;
         padding: 30px;
@@ -78,3 +138,50 @@ body {
         font-size: small;
         margin: 20px 0 0;
     }
+header {
+    background: #2f4b52;
+    width: 100%;
+    padding: 10px 0;
+
+}
+.flex-container {
+    display: flex;
+    background-color: transparent;
+}
+
+.flex-container > div {
+    background-color: transparent;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.caixa {
+    display: flex;
+    width: 940px;
+}
+
+#logo2 {
+    width: 25rem;
+    position:static;
+    top: 3px;
+    left: 150px;
+    
+}
+footer {
+    text-align: center;
+    background: #FFEFDD;
+    padding: 40px;
+}
+
+.copyright{
+    color: #1b1b1b;
+    font-size: small;
+    margin: 20px 0 0;
+}
+
+#logo3 {
+    width: 25rem;
+    position: relative;
+    top: 3px;
+}
