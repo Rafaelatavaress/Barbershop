@@ -3,12 +3,6 @@
 
 body {
     background: #cccccc;
-    }
-    
-    header {
-        background: #2f4b52;
-        width: 100%;
-        padding: 10px 0;
     
     }
     .flex-container {
@@ -78,11 +72,11 @@ body {
         font-weight: bold;
         font-size: 22px;
         text-decoration: none;
+        margin-bottom: 15px;
         color: #2f4b52;
         font-family: 'Roboto', sans-serif;
     }
     p {
-        text-align:justify;
         font-weight:lighter;
         font-size: 19px;
         font-family: 'Roboto', sans-serif;
