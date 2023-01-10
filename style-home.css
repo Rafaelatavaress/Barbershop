@@ -2,7 +2,14 @@
 @import url('https://fonts.cdnfonts.com/css/pieces-of-eight');
 
 body {
-    background: #cccccc;
+    background: #fffefe;
+    
+    }
+
+    header {
+        background: #2f4b52;
+        width: 100%;
+        padding: 10px 0;
     
     }
     .flex-container {
@@ -60,22 +67,33 @@ body {
         text-decoration:underline;
     }
     .principal {
-        background: #cccccc;
+        background: #fffefe;
         padding: 30px;
-        border-radius: 10px 20px;
         position: static;
     }
         
-    .titulo-centralizado{
+    .titulo-principal{
         text-align:center;
+        text-align: center;
+        clear: left;
         text-transform: uppercase;
         font-weight: bold;
-        font-size: 22px;
+        font-size: 2em;
         text-decoration: none;
-        margin-bottom: 15px;
         color: #2f4b52;
         font-family: 'Roboto', sans-serif;
+        margin: 0 3em;
+    
     }
+    
+    .principal p{
+        margin: 0 0 1em
+    }
+    
+    .principal strong{
+        font-weight: bold;
+    } 
+
     p {
         font-weight:lighter;
         font-size: 19px;
@@ -98,7 +116,7 @@ body {
 
     .sectionbeneficios{
         padding: 3em 0;
-        background: #f6f6f8;
+        background: #fffefe;
 
     }
     h2, h3 {
@@ -114,7 +132,8 @@ body {
         margin-left: 15rem;
         font-size: 35px;
         color: #2f4b52;
-        font-family: 'Pieces of Eight', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
     
     }
 
@@ -127,55 +146,41 @@ body {
     
     }
 
+    .utensilios {
+        width: 220px;
+        float: left;
+        margin: 0 3em;
+    }
+
+    footer {
+        text-align: center;
+        background: #FFEFDD;
+        padding: 40px;
+}
+
     .copyright{
         color: #1b1b1b;
         font-size: small;
         margin: 20px 0 0;
+}
+
+    #logo3 {
+        width: 25rem;
+        position: relative;
+        top: 3px;
+}
+
+    .mapa{
+        padding: 3em 0;
+        margin:  0 3rem;
+}
+
+    .mapa p{
+        margin: 0 0 2em;
+        text-align: center;
+}
+
+    .video{
+        margin:  1em auto;
+        width: 560px;
     }
-header {
-    background: #2f4b52;
-    width: 100%;
-    padding: 10px 0;
-
-}
-.flex-container {
-    display: flex;
-    background-color: transparent;
-}
-
-.flex-container > div {
-    background-color: transparent;
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-}
-
-.caixa {
-    display: flex;
-    width: 940px;
-}
-
-#logo2 {
-    width: 25rem;
-    position:static;
-    top: 3px;
-    left: 150px;
-    
-}
-footer {
-    text-align: center;
-    background: #FFEFDD;
-    padding: 40px;
-}
-
-.copyright{
-    color: #1b1b1b;
-    font-size: small;
-    margin: 20px 0 0;
-}
-
-#logo3 {
-    width: 25rem;
-    position: relative;
-    top: 3px;
-}
