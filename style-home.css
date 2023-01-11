@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.cdnfonts.com/css/pieces-of-eight');
 
-body {
-    background: #fffefe;
-    
+
+    main{
+        background-image: linear-gradient(to bottom, #2f4b52, #3f6762, #628268, #95996d, #d2ac7f);
     }
 
     header {
@@ -67,9 +67,12 @@ body {
         text-decoration:underline;
     }
     .principal {
-        background: #fffefe;
+        
         padding: 30px;
         position: static;
+        padding: 3em 0;
+        width: 940px;
+        margin: 0 auto;
     }
         
     .titulo-principal{
@@ -80,7 +83,7 @@ body {
         font-weight: bold;
         font-size: 2em;
         text-decoration: none;
-        color: #2f4b52;
+        color: #d2ac7f;
         font-family: 'Roboto', sans-serif;
         margin: 0 3em;
     
@@ -98,6 +101,7 @@ body {
         font-weight:lighter;
         font-size: 19px;
         font-family: 'Roboto', sans-serif;
+        color: #FFEFDD
     }
     #missao {
         font-size: 20px;
@@ -105,18 +109,17 @@ body {
     }
     
     em strong {
-        color: #2f4b52;
+        color: #FFEFDD;
         font-weight: bold;
     }
     .beneficios {
-        display: flex;
-        width: 940px;
-        margin: 0;
+        display:flex;
     }  
 
     .sectionbeneficios{
         padding: 3em 0;
-        background: #fffefe;
+        width: 940px;
+        margin: 0 auto;
 
     }
     h2, h3 {
@@ -125,25 +128,52 @@ body {
     }
     
     ul .itens {
-        
         vertical-align:top;
-        width: 40%;
         margin-top: 2rem;
-        margin-left: 15rem;
-        font-size: 35px;
-        color: #2f4b52;
+        margin-left: 14rem;
+        font-size: 20px;
+        color: #FFEFDD;
         font-family: 'Roboto', sans-serif;
-        font-weight: bold;
     
     }
 
+    .itens {
+        line-height: 1;
+    }
+
+    .itens:first-child {
+        font-weight: bold;
+    }
+
+    .itens:before {
+        content:"⦿";
+        color: #2f4b52;
+    }
+
     .imagembeneficios{
-        margin-left: 30%;
+        margin: 0 10% auto;
         width: 40%;
         padding: 20px;
-        border-radius: 15px 20px;
+    }
+
+    .mapa{
+        padding: 3em 0;
         
-    
+}
+
+    .mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+}
+
+    .mapa p{
+        margin: 0 0 2em;
+        text-align: center;
+}
+
+    .video{
+        margin:  1em auto;
+        width: 560px;
     }
 
     .utensilios {
@@ -154,7 +184,7 @@ body {
 
     footer {
         text-align: center;
-        background: #FFEFDD;
+        background-image: linear-gradient(to bottom, #d2ac7f, #95996d, #628268, #3f6762, #2f4b52);
         padding: 40px;
 }
 
@@ -170,17 +200,3 @@ body {
         top: 3px;
 }
 
-    .mapa{
-        padding: 3em 0;
-        margin:  0 3rem;
-}
-
-    .mapa p{
-        margin: 0 0 2em;
-        text-align: center;
-}
-
-    .video{
-        margin:  1em auto;
-        width: 560px;
-    }
