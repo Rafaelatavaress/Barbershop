@@ -3,15 +3,16 @@
 
 
     main{
-        background-image: linear-gradient(to bottom, #2f4b52, #3f6762, #628268, #95996d, #d2ac7f);
+        background: #EBE6E0;
     }
 
     header {
-        background: #2f4b52;
+        
         width: 100%;
         padding: 10px 0;
-    
-    }
+        background-image: linear-gradient(to left top, #2f4b52, #283f45, #223438, #1b292c, #151f21, #141e20, #141e1f, #131d1e, #182527, #1d2e31, #22373b, #274046);
+        }
+
     .flex-container {
         display: flex;
         background-color: transparent;
@@ -83,7 +84,7 @@
         font-weight: bold;
         font-size: 2em;
         text-decoration: none;
-        color: #d2ac7f;
+        color: #1c2f34;
         font-family: 'Roboto', sans-serif;
         margin: 0 3em;
     
@@ -101,7 +102,7 @@
         font-weight:lighter;
         font-size: 19px;
         font-family: 'Roboto', sans-serif;
-        color: #FFEFDD
+        color: #5b7c7d;
     }
     #missao {
         font-size: 20px;
@@ -109,7 +110,7 @@
     }
     
     em strong {
-        color: #FFEFDD;
+        color: #5b7c7d;;
         font-weight: bold;
     }
     .beneficios {
@@ -132,7 +133,7 @@
         margin-top: 2rem;
         margin-left: 14rem;
         font-size: 20px;
-        color: #FFEFDD;
+        color: #5b7c7d;
         font-family: 'Roboto', sans-serif;
     
     }
@@ -151,9 +152,16 @@
     }
 
     .imagembeneficios{
-        margin: 0 10% auto;
+        margin: 0 0 auto;
         width: 40%;
         padding: 20px;
+        opacity: 0.3;
+        transition: 400ms;
+        
+    }
+
+    .imagembeneficios:hover {
+        opacity: 1;
     }
 
     .mapa{
@@ -184,7 +192,7 @@
 
     footer {
         text-align: center;
-        background-image: linear-gradient(to bottom, #d2ac7f, #95996d, #628268, #3f6762, #2f4b52);
+        background-image: linear-gradient(to left top, #d2ac7f, #dbb890, #e3c5a1, #ecd1b3, #f4dec5, #f6e1c9, #f7e3cc, #f9e6d0, #f5dfc7, #f0d8bd, #ecd2b4, #e7cbab);
         padding: 40px;
 }
 

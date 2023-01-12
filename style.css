@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.cdnfonts.com/css/pieces-of-eight');
+body{
+    background: #EBE6E0;
+}
 
 header {
-    background: #2f4b52;
+    background-image: linear-gradient(to left top, #2f4b52, #283f45, #223438, #1b292c, #151f21, #141e20, #141e1f, #131d1e, #182527, #1d2e31, #22373b, #274046);
     width: 100%;
     padding: 10px 0;
 
@@ -79,6 +82,7 @@ nav p:hover {
     box-sizing: border-box;
     border: 3px solid #2f4b52;
     border-radius: 15px;
+    background-color: white;
     
 
 }
@@ -116,7 +120,7 @@ nav p:hover {
 
 footer {
     text-align: center;
-    background: #FFEFDD;
+    background-image: linear-gradient(to left top, #d2ac7f, #dbb890, #e3c5a1, #ecd1b3, #f4dec5, #f6e1c9, #f7e3cc, #f9e6d0, #f5dfc7, #f0d8bd, #ecd2b4, #e7cbab);
     padding: 40px;
 }
 
@@ -132,11 +136,11 @@ footer {
     top: 3px;
 }
 main{
-    width: 940px;
-    margin: 0 auto;
+    background-color: #EBE6E0;
 }
 form{
-    margin: 40px 0;
+    width: 940px;
+    margin: 40px auto;
 }
 form label, form legend{
     display: block;
@@ -165,7 +169,7 @@ form label, form legend{
     font-family: 'Roboto', sans-serif;
     border: none;
     border-radius: 6px;
-    transition: 2s all;
+    transition: 1s all;
     cursor: pointer;
 }
 .enviar:hover{
@@ -173,7 +177,8 @@ form label, form legend{
     transform: scale(1.1);
 }
 table{
-    margin: 20px 0 4px;
+    margin: 2em 13em auto;
+
     
 }
 thead{
