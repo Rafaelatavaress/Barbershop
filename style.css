@@ -4,6 +4,7 @@
 
     body, main{
         background: #EBE6E0;
+        min-width:  940px;
     }
 
     header {
@@ -301,20 +302,29 @@
 
 @media screen and (max-width: 480px){
     
-    main .caixa, .principal, .sectionbeneficios, .mapa-conteudo, .video {
+    .caixa, .principal, .sectionbeneficios, .mapa-conteudo, .video {
         width: auto;
-        
+        position: relative;
     }
 
     h1 {
         text-align: center;
     }
 
-    nav {
-        position: static;
+    header {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
 
-    .lista-beneficios, .imagembeneficios {
-        width: 100%;
+    nav {
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 5px;
+    }
+
+    nav a {
+        font-size: 20px;
+        text-align: center;
     }
 }
