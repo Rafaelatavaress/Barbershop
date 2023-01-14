@@ -300,9 +300,10 @@
 }
 
 @media screen and (max-width: 480px){
+    
     main .caixa, .principal, .sectionbeneficios, .mapa-conteudo, .video {
         width: auto;
-        position: relative;
+        
     }
 
     h1 {
@@ -316,5 +317,4 @@
     .lista-beneficios, .imagembeneficios {
         width: 100%;
     }
-    
 }
