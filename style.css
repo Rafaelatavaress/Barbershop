@@ -18,7 +18,7 @@
         margin: 0 auto;
     }
     
-    nav {
+    .menu {
         position: absolute;
         top: 110px;
         right: 2em;
