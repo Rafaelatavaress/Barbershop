@@ -12,35 +12,51 @@
         background-image: linear-gradient(to left top, #2f4b52, #283f45, #223438, #1b292c, #151f21, #141e20, #141e1f, #131d1e, #182527, #1d2e31, #22373b, #274046);
         }
     
-    .caixa {
-        display: relative;
-        width: 940px;
-        margin: 0 auto;
+    .flex-container {
+        display: flex;
+        background-color: transparent;
+        }
+        
+    .flex-container > div {
+        background-color: transparent;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
     }
-    
+        
+    .caixa {
+        position: relative;
+        width: 940px;
+    }
+        
     nav {
         position: absolute;
         top: 110px;
-        right: 2em;
-    }
-    
-    nav li {
+        right: 80px;
+        }
+        
+        nav li {
         display: inline;
         margin: 0 0 0 15px;
-    }
-    
-    nav a {
+        }
+        
+        nav a {
         text-transform: uppercase;
         color: #D2AC7F;
         font-size: 30px;
         text-decoration: none;
         font-family: 'Pieces of Eight', sans-serif;
-    }
-    
-    nav a:hover {
+        }
+        
+        nav a:hover {
         color:  #FFEFDD;
         text-decoration: underline;
-    }
+        }
+        
+        nav p:hover {
+        color:  #FFEFDD;
+        text-decoration:underline;
+        }
     
     .titulo-principal{
         text-align:center;
@@ -300,7 +316,7 @@
         top: 3px;
 }
 
-@media screen and (max-width: 480px){
+@media (max-width: 480px){
     
     .caixa, .principal, .sectionbeneficios, .mapa-conteudo, .video {
         width: auto;
@@ -311,20 +327,31 @@
         text-align: center;
     }
 
+    span a img {
+            width: 250px;
+            height: 200px;
+        }
+    
     header {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    nav {
-        display: flex;
-        margin: 0 auto;
-        margin-bottom: 5px;
-    }
-
-    nav a {
-        font-size: 20px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+    
+    .flex-container {
+            display: flex;
+            margin: 0 auto;
+            margin-bottom: 5px;
+        }
+    
+    
+    nav{
+        position:inherit;
         text-align: center;
     }
-}
+    nav a {
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+
