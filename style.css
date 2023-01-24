@@ -23,7 +23,6 @@
         padding: 20px;
         font-size: 30px;
     }
-<<<<<<< HEAD
         
     .caixa {
         position: relative;
@@ -31,10 +30,6 @@
     }
         
     nav {
-=======
-    
-    .menu {
->>>>>>> 943fa46b7f81281247e113b4dc224fda15c4cc77
         position: absolute;
         top: 110px;
         right: 80px;
