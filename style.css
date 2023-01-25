@@ -191,6 +191,7 @@
         width: 940px;
         margin: 0 auto;
         padding: 50px 0;
+        
     
     }
     
@@ -353,5 +354,19 @@
             font-size: 20px;
             text-align: center;
         }
+    
+    .produtos  {
+        display: grid;
+        grid-template-columns: repeat(auto-fix, minmax(200px, 1fr));
+        gap: 20px;
+        flex-direction: column;
+        vertical-align: middle;
     }
+    .produtos ul {
+        height: 200px;
+        background-color: #FFEFDD;
+        border-radius: 15px;
+        
+    }
+}
 
