@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.cdnfonts.com/css/pieces-of-eight');
 
-body, main {
-    background: #EBE6E0;
-}
 
-@media (max-width: 940px) {
+    body, main{
+        background: #EBE6E0;
+        min-width:  940px;
+    }
 
     header {
         padding: 20px 0;
         background-image: linear-gradient(to left top, #2f4b52, #283f45, #223438, #1b292c, #151f21, #141e20, #141e1f, #131d1e, #182527, #1d2e31, #22373b, #274046);
-    }
-
+        }
+    
     .flex-container {
         display: flex;
         background-color: transparent;
-    }
+        }
         
     .flex-container > div {
         background-color: transparent;
@@ -33,33 +33,33 @@ body, main {
         position: absolute;
         top: 110px;
         right: 80px;
-    }
+        }
         
-    nav li {
+        nav li {
         display: inline;
         margin: 0 0 0 15px;
-    }
+        }
         
-    nav a {
+        nav a {
         text-transform: uppercase;
         color: #D2AC7F;
         font-size: 30px;
         text-decoration: none;
         font-family: 'Pieces of Eight', sans-serif;
-    }
-
-    nav a:hover {
+        }
+        
+        nav a:hover {
         color:  #FFEFDD;
         text-decoration: underline;
-    }
-
-    nav p:hover {
+        }
+        
+        nav p:hover {
         color:  #FFEFDD;
         text-decoration:underline;
-    }
-
+        }
+    
     .titulo-principal{
-        text-align: center;
+        text-align:center;
         clear: left;
         text-transform: uppercase;
         font-weight: bold;
@@ -68,6 +68,7 @@ body, main {
         color: #1c2f34;
         font-family: 'Roboto', sans-serif;
         margin: 0 0 1em;
+    
     }
 
     .principal {
@@ -75,11 +76,11 @@ body, main {
         width: 940px;
         margin: 0 auto;
     }
-
-    .principal p {
+    
+    .principal p{
         margin: 0 0 1em
     }
-
+    
     .principal strong{
         font-weight: bold;
     } 
@@ -95,16 +96,15 @@ body, main {
         font-size: 20px;
         font-family: 'Roboto', sans-serif;
     }
-
+    
     em strong {
         color: #5b7c7d;;
         font-weight: bold;
     }
-
     .beneficios {
-        display: flex;
+        display:flex;
     } 
-
+    
     .conteudo-beneficios {
         margin: 0 auto;
     }
@@ -115,26 +115,26 @@ body, main {
         vertical-align: top;
     }
 
-    .sectionbeneficios {
+    .sectionbeneficios{
         padding: 3em 0;
         width: 940px;
         margin: 0 auto;
 
     }
-
     h2, h3 {
         text-align: center;
         font-family: 'Roboto', sans-serif;
     }
-
+    
     ul .itens {
-        vertical-align: top;
+        vertical-align:top;
         margin-top: 2rem;
         margin-left: 10rem;
         font-size: 20px;
         color: #5b7c7d;
         font-family: 'Roboto', sans-serif;
         list-style: none;
+    
     }
 
     .itens {
@@ -146,37 +146,38 @@ body, main {
     }
 
     .itens:before {
-        content: "⦿";
+        content:"⦿";
         color: #2f4b52;
     }
 
-    .imagembeneficios {
+    .imagembeneficios{
         width: 40%;
+        
     }
 
     .imagembeneficios:hover {
         opacity: 1;
     }
 
-    .mapa {
+    .mapa{
         padding: 3em 0;
         width: 940px;
         margin: 0 auto;
-    }
+}
 
     .mapa-conteudo {
-        width: 940px;
-        margin: 0 auto;
-        position: absolute;
-    }
+    width: 940px;
+    margin: 0 auto;
+    position: absolute;
+}
 
-    .mapa p {
+    .mapa p{
         margin: 0 0 2em;
         text-align: center;
-    }
+}
 
-    .video {
-        margin: 1em auto;
+    .video{
+        margin:  1em auto;
         width: 560px;
     }
 
@@ -190,8 +191,10 @@ body, main {
         width: 940px;
         margin: 0 auto;
         padding: 50px 0;
+        
+    
     }
-
+    
     .produtos li {
         display: inline-block;
         margin: 0 1.5%;
@@ -203,34 +206,36 @@ body, main {
         border: 3px solid #2f4b52;
         border-radius: 15px;
         background-color: white;
+        
+    
     }
-
+    
     .produtos li:hover {
         border-color: #D2AC7F;
-    }
-
+        }
+    
     .produtos li :active {
         border-color: #D2AC7F;
     }
-
+    
     .produtos li:hover h2 {
         font-size: 34px;
     }
-
+    
     .produtos h2 {
         font-size: 30px;
         font-weight: bold;
         font-family: 'Roboto', sans-serif;
         color: #141f22;
     }
-
+    
     .produto-descricao {
         font-size: 28px;
         font-weight: lighter;
         font-family: 'Pieces of Eight', sans-serif;
         color: #141f22;
     }
-
+    
     .produto-preco {
         font-size: 27px;
         font-weight: bold;
@@ -239,32 +244,28 @@ body, main {
         font-family: 'Pieces of Eight', sans-serif
     }
 
-    form {
+    form{
         width: 940px;
         margin: 40px 30px auto;
     }
-
     form label, form legend{
         display: block;
         font-size: 20px;
         font-family: 'Roboto', sans-serif;
         margin: 0 0 10px;
     }
-
-    .input-padrao {
+    .input-padrao{
         display: block;
         margin: 0 0 20px;
         padding: 10px 25px;
         width: 50%;
         cursor: pointer;
     }
-
     .checkbox {
         margin: 20px 0;
         cursor: pointer;
     }
-
-    .enviar {
+    .enviar{
         width: 35%;
         padding: 15px 0;
         background: #2f4b52;
@@ -277,24 +278,22 @@ body, main {
         transition: 1s all;
         cursor: pointer;
     }
-
-    .enviar:hover {
+    .enviar:hover{
         background:#182427;
         transform: scale(1.1);
     }
-
-    table {
+    table{
         margin: 2em 13em auto;
+    
+        
     }
-
-    thead {
+    thead{
         background: #D2AC7F;
         color: #182427;
         font-weight: bold;
         font-family: 'Roboto', sans-serif;
     }
-
-    td, th {
+    td, th{
         border: 1px solid #2f4b52;
         font-family: 'Roboto', sans-serif;
         padding: 8px 15px;
@@ -304,27 +303,22 @@ body, main {
         text-align: center;
         background-image: linear-gradient(to left top, #d2ac7f, #dbb890, #e3c5a1, #ecd1b3, #f4dec5, #f6e1c9, #f7e3cc, #f9e6d0, #f5dfc7, #f0d8bd, #ecd2b4, #e7cbab);
         padding: 40px;
-    }
+}
 
-    .copyright {
+    .copyright{
         color: #1b1b1b;
         font-size: small;
         margin: 20px 0 0;
-    }
+}
 
     #logo3 {
         width: 25rem;
         position: relative;
         top: 3px;
-    }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 480px){
     
-    .container {
-        max-width: 390px;
-    }
-
     .caixa, .principal, .sectionbeneficios, .mapa-conteudo, .video {
         width: auto;
         position: relative;
@@ -335,31 +329,31 @@ body, main {
     }
 
     span a img {
-        width: 250px;
-        height: 200px;
-    }
+            width: 250px;
+            height: 200px;
+        }
     
     header {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
     
     .flex-container {
-        display: flex;
-        margin: 0 auto;
-        margin-bottom: 5px;
-    }
+            display: flex;
+            margin: 0 auto;
+            margin-bottom: 5px;
+        }
+    
     
     nav {
         position:inherit;
         text-align: center;
     }
-
     nav a {
-        font-size: 20px;
-        text-align: center;
-    }
+            font-size: 20px;
+            text-align: center;
+        }
     
     .produtos  {
         display: grid;
@@ -367,29 +361,11 @@ body, main {
         vertical-align: middle;
         margin: 20px 20px auto;
     }
-
     .produtos ul {
         height: 200px;
         background-color: #FFEFDD;
         border-radius: 15px;
-    }
-
-    .mapa {
-        max-width: 390px;
-    }    
-
-    #logo2 {
-        width: 100px;
-        height: 80px;
-    }
-
-    input, textarea {
-        width: 400px;
-    }
-
-    form {
-        width: 390px;
-        margin: 20px 10px;
+        
     }
     
 }
