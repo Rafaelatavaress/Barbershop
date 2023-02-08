@@ -317,7 +317,7 @@
         top: 3px;
 }
 
-@media (max-width: 480px){
+@media screen and (max-width:805px){
     
     .caixa, .principal, .sectionbeneficios, .mapa-conteudo, .video {
         width: auto;
