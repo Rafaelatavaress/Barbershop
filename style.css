@@ -332,20 +332,20 @@
     }
 
     span a img {
-            width: 250px;
-            height: 200px;
+        width: 250px;
+        height: 200px;
         }
     
     header {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
         }
     
     .flex-container {
-            display: flex;
-            margin: 0 auto;
-            margin-bottom: 5px;
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 5px;
         }
     
     
@@ -354,8 +354,8 @@
         text-align: center;
     }
     nav a {
-            font-size: 25px;
-            text-align: center;
+        font-size: 25px;
+        text-align: center;
         }
     
     .produtos  {
